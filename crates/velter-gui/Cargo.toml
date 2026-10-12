@@ -1,0 +1,11 @@
+[package]
+name = "velter"
+version = "0.1.0"
+edition = "2024"
+license = "LGPL-3.0-only"
+
+[dependencies]
+eframe = { version = "0.36.2", default-features = false, features = ["glow", "default_fonts"] }
+velter-core = { version = "0.1.0", path = "../velter-core" }
+raw-window-handle = "0.6.2"
+windows-sys = { version = "0.61.2", features = ["Win32_Foundation", "Win32_Graphics_Gdi", "Win32_UI_WindowsAndMessaging", "Win32_UI_Input_KeyboardAndMouse"] }

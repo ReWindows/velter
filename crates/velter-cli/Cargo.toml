@@ -1,0 +1,9 @@
+[package]
+name = "velter-cli"
+version = "0.1.0"
+edition = "2024"
+license = "LGPL-3.0-only"
+
+[dependencies]
+velter-core = { path = "../velter-core" }
+velter-runtime = { path = "../velter-runtime" }

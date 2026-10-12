@@ -1,0 +1,14 @@
+# Build output
+/target/
+
+# Third-party checkouts (each is its own git repo; pinned in REFERENCES.md)
+/engine/radare2/
+/references/
+/competition/
+
+# Built third-party binaries
+/Plugins/
+
+# Output generated from game files. Not ours to redistribute;
+# benchmarks/README.md records the expected counts instead.
+/benchmarks/*/

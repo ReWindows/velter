@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/velter-core",
+    "crates/velter-runtime",
+    "crates/velter-gui",
+    "crates/velter-cli",
+    "crates/velter-ir",
+    "crates/velter-isa",
+    "crates/velter-protocol",
+    "crates/velter-target",
+]
